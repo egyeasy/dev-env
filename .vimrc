@@ -95,6 +95,3 @@ au BufReadPost *
             \ if line("'\"") > 0 && line("'\"") <= line("$") |
             \ exe "norm g`\"" |
             \ endif
-source ~/.vimrc_os3-3
-set tags+=/root/trunk/src/lib/tags
-set tags+=/root/trunk/src/gk_repo/tags
